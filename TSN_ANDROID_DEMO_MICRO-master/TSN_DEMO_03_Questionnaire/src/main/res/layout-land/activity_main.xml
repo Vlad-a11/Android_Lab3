@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Относительное выравнивание на весь экран,
+     используется фоновая картинка "background1" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bgnd1">
+
+    <!-- Выравнивание от верха экрана (android:layout_alignParentTop="true")
+         и выше компонента "textView2" (android:layout_above="@+id/textView2"),
+         по-центру между ними (по-вертикали) (android:gravity="center") -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:text="@string/Опрос"/>
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/img" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView"
+        android:ems="20"
+        android:gravity="center"
+        android:hint="@string/Введите_ФИО"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onInfo"
+        android:text="@string/Продолжить"/>
+
+
+</RelativeLayout>

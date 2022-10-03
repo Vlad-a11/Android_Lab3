@@ -1,0 +1,38 @@
+<resources>
+    <!-- Название программы -->
+    <string name="app_name">TSN_DEMO_03_Questionnaire</string>
+
+    <!-- Текстовые константы -->
+    <string name="Мужчина">Мужчина</string>
+    <string name="Женщина">Женщина</string>
+    <string name="Опрос">Опрос посупивших на курс английского языка</string>
+    <string name="Введите_ФИО">Введите ваше ФИО</string>
+    <string name="Укажите_пол">Укажите пол:</string>
+    <string name="Вопросы">Ответьте на вопросы ниже</string>
+    <string name="Выберите_уровень">Выберите уровень знания языка: </string>
+    <string name="Ваш_уровень">Ваш уровень знания языка:</string>
+    <string name="Продолжить">Продолжить</string>
+    <string name="Итоги">Итоги</string>
+    <string name="Изучали">До этого вы изучали язык?</string>
+    <string name="ДА">ДА</string>
+    <string name="НЕТ">НЕТ</string>
+    <string name="Сводные_данные">Сводные данные:</string>
+    <string name="Назад">Назад</string>
+    <string name="Выход">Выход</string>
+    <string name="Вы">Вы:</string>
+    <string name="Ваш_пол">Ваш пол:</string>
+    <string name="Изучали1">Вы изучали язык:</string>
+
+
+
+    <!-- Массив строк -->
+    <string-array name="levels_arrays">
+        <item>А1 - Начальный</item>
+        <item>А2 - Ниже среднего</item>
+        <item>B1 - Средний </item>
+        <item>B2 - Выше среднего</item>
+        <item>C1 - Продвинутый</item>
+        <item>C2 - Професииональный</item>
+    </string-array>
+
+</resources>
