@@ -1,2 +1,7 @@
-# Android_Lab3
-Лабораторная работа 3
+# LAB3_EVA06
+
+Многооконная программа в Android Studio
+
+
+![Screenshot](SCRN.png)
+
